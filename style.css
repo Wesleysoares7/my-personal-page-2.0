@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.interface {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+header {
+  padding: 2, 5rem 4%;
+  width: 100%;
+}
+
+header img {
+  max-width: 10rem;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #5c5c5c;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+header nav {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 2.5rem;
+}
+
+header .btn-contato button {
+  padding: 0.625rem 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  background-color: #00ff08;
+  border: 0;
+  border-radius: 1.875rem;
+  cursor: pointer;
+}
+
+header .btn-contato button:hover {
+  box-shadow: 0px 0px 8px #00ff0868;
+}
