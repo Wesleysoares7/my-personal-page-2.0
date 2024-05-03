@@ -400,6 +400,10 @@ footer .line-footer p a {
     flex-direction: column-reverse;
   }
 
+  .btn-abrir-menu {
+    display: block;
+  }
+
   .menu-desktop,
   .btn-contato {
     display: none;
