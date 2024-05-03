@@ -86,6 +86,10 @@ header nav.menu-desktop ul li {
   padding: 0 40px;
 }
 
+.btn-abrir-menu {
+  display: none;
+}
+
 .btn-abrir-menu i {
   color: #00ff08;
   font-size: 40px;
