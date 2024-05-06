@@ -192,7 +192,7 @@ section.topo-do-site .flex {
   }
 }
 
-section.epecialidades {
+section.especialidades {
   padding: 40px 4%;
 }
 
@@ -206,6 +206,8 @@ section.especialidades .flex {
   border-radius: 20px;
   margin-top: 45px;
   transition: 0.2s;
+  width: 35%;
+  text-align: justify;
 }
 
 .especialidades .especialidades-box:hover {
@@ -425,8 +427,8 @@ footer .line-footer p a {
     width: 100%;
   }
 
-  section .especialidade {
-    padding: 20px 8%;
+  section .especialidades {
+    padding: 40px 8%;
   }
 
   section .sobre {
