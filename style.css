@@ -389,6 +389,20 @@ footer .line-footer p a {
   color: #fff;
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+/* body::-webkit-scrollbar-track {
+  background: orange;
+} */
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2aebeb; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  /* border: 3px solid orange; */
+}
+
 @media screen and (max-width: 1020px) {
   .flex {
     flex-direction: column;
